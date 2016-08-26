@@ -12,12 +12,25 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-        
+
         <Menu Grid.Row="0" Grid.Column="0">
             <MenuItem Header="File">
                 <MenuItem Header="Exit"/>
             </MenuItem>
         </Menu>
-        
+
+        <TabControl Grid.Row="1" Grid.Column="0" Margin="3" Background="#FF383737" BorderBrush="#FF4B4B4B">
+            <TabItem Header="Keyboard">
+                <Grid>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Mouse">
+                <Grid>
+
+                </Grid>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
